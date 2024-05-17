@@ -1,0 +1,17 @@
+/* Welcome.css */
+.welcome-page {
+    padding: 20px;
+    background-color: #fff;
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0,0,0,0.1);
+    width: 1000px; 
+    margin: 50px auto; /* Center display */
+}
+
+.welcome-page .text-wrap {
+    text-align: justify; /* Align text on both ends */
+    padding: 20px; 
+    font-size: 18px; 
+    line-height: 1.6; 
+    color: #606060; 
+}

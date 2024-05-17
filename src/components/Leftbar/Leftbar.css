@@ -1,0 +1,23 @@
+.leftbar {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    padding: 20px;
+    height: 100vh;
+    box-shadow: none;
+    background-color: transparent;
+    width: 200px;
+}
+
+.leftbar button.btn-custom {
+    margin-top: 10px;
+    margin-bottom: 10px;
+    width: 100%;
+    text-align: left;
+    border: none; 
+    font-weight: bold; 
+    background-color: transparent; 
+    box-shadow: none; 
+    color: inherit; 
+    text-decoration: none;
+}

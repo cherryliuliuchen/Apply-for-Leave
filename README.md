@@ -1,70 +1,64 @@
-# Getting Started with Create React App
+# Technical Project Description for EasyLeave App
+
+## Executive Summary
+### Description of the Application
+> The EasyLeave application is a web-based leave management tool. It utilizes React for the frontend and [airtable](https://airtable.com/)  for data storage.
+
+## Operating Environment
+### Technical Architecture
+> The application operates on a client-server architecture and currently functions as a frontend demo. It is built with React for structure, Bootstrap for styling, and JavaScript for programming. The design is responsive and tailored for a user-friendly experience across devices.
+
+## Modules
+### Functional Overview
+> The application includes several key modules:<br>Homepage - Offers a brief introduction to the services.<br>Account - Allows registered users to log in.<br>Apply for Leave - Users must log in to apply for various types of leave.
+
+### Detailed Module Description
+#### Home
+> Users can see brief introduction on the Homepage.
+![alt text](src/assets/pic/homepage.jpg)
+
+#### Account
+> Registered users can login on this page.
+![alt text](src/assets/pic/account.jpg)
+
+####  Apply for Leave
+> Users must log in before applying for leave on this page.
+![alt text](src/assets/pic/leaveapplication.jpg)
+
+## Mobile View Example
+> This application is optimized for mobile devices, ensuring accessibility and functionality on the go.
+![alt text](src/assets/pic/mobile.jpg)
+
+## How to download and build locally
+### Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
-## Available Scripts
+Mobile View Example
+This application is optimized for mobile devices, ensuring accessibility and functionality on the go.
 
-In the project directory, you can run:
+### In the project directory, you can run:
 
 ### `npm start`
 
 Runs the app in the development mode.\
 Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
-
-### `npm test`
-
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
-
-### `npm run build`
-
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
-
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
-
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
-
-### `npm run eject`
-
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
-
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
-
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
-
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
-
-## Learn More
+### Learn More
 
 You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
 
 To learn React, check out the [React documentation](https://reactjs.org/).
 
-### Code Splitting
+###  Modify environments information
+> If you want to change the APIKey, modify it  in C:\Cherry\Fullstack\Leave system\leave-application\src\api\api.js
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
 
-### Analyzing the Bundle Size
+## Version Information
+> Draft version 7th May,2024  
+> Modify the Navigation bar styling 10th May,2024  
+> Final version 17th May,2024
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
 
-### Making a Progressive Web App
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
 
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)

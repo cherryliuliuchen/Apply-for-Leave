@@ -1,0 +1,15 @@
+/* Navbar.css */
+.bg-lightgreen {
+    background-color: #4db19b; 
+}
+
+.btn-white {
+    background-color: #d8f3ed; 
+    color: #4db19b; 
+    border-radius: 15px; 
+}
+
+.navbar .navbar-brand {
+    color: white;
+    font-weight: bold;
+}

@@ -1,0 +1,9 @@
+.custom-login-btn {
+    background-color: #baded5; 
+    color: #333; 
+    border: none; 
+}
+
+.custom-login-btn:hover {
+    background-color: #a8cec1; 
+}
