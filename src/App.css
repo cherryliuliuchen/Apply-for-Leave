@@ -15,7 +15,6 @@
   margin: 20px auto;
 }
 
-/* 响应性设计 */
 @media (max-width: 768px) {
   .form-group, .form-check {
     display: block;

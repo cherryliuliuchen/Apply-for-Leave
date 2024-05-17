@@ -15,7 +15,7 @@ describe('LeaveApplication Component', () => {
 
         // Fill out the form
         fireEvent.change(screen.getByLabelText(/Procentsats \(%\)/), { target: { value: '50%' } });
-        fireEvent.change(screen.getByLabelText(/Start datum/), { target: { value: '2023-01-01' } }); // 注意这里文本应与组件中的一致
+        fireEvent.change(screen.getByLabelText(/Start datum/), { target: { value: '2023-01-01' } }); 
         fireEvent.change(screen.getByLabelText(/Varaktighet/), { target: { value: 'Morning' } });
         fireEvent.change(screen.getByLabelText(/Slutdatum/), { target: { value: '2023-01-02' } });
         fireEvent.change(screen.getByLabelText(/Telefon/), { target: { value: '+46123456789' } });

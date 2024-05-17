@@ -32,7 +32,7 @@ function LoginPage({ onLogin }) {
 
     const handleSubmit = async (event) => {
         event.preventDefault();
-        setIsLoading(true); // Start to loaingd
+        setIsLoading(true); // Start to loading
         try {
             const result = await onLogin({ email, password });
             setIsLoading(false); // Loading fnish
@@ -78,6 +78,7 @@ function LoginPage({ onLogin }) {
                     {isLoading ? 'Loggar in...' : 'Logga in'}
                 </button>
                 {error && <div className="alert alert-danger mt-2">{error}</div>}
+                <small className="form-text text-muted">Använd e-post: cherry@gmail.com lösenord:123456 för testning</small>
             </form>
         </div>
     );

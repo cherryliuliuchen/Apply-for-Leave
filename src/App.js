@@ -8,7 +8,7 @@ import LeaveApplication from './components/LeaveApplication/LeaveApplication';
 import Leftbar from './components/Leftbar/Leftbar';
 import RequireAuth from './auth/RequireAuth';
 import { fetchUsers } from './api/api';
-import './App.css'; // 确保样式表被正确导入
+import './App.css'; 
 
 function App() {
     const [user, setUser] = useState(null);
